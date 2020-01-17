@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+</head>
+
+<body>
+    <h1>formulario (inputs)</h1>
+    <form>
+        <label for="">Nombre</label><input id="Nombre" placeholder="aqui va el nombre" type="text" required>
+        <br>
+        <label for="">apellido</label><input type="text" minlength="3" maxlength="5">
+        <br>
+        <label for=""></label>correo<input id="email" type="email">
+        <label for="pss">pasword</label><input type="password">
+        <label for="">Telefono<input type="number"></label>
+        <br>
+        <h2>selicciona una opcion</h2>
+        <input type="radio" name="sexo" checked id="" value="Maculino">Masculino
+        <input type="radio" name="sexo" id="" value="Femenino">Femenino
+        <br>
+        <input checked type="checkbox" value="opcion1">opcion1
+        <input type="checkbox" value="opcion2">opcion2
+        <input type="checkbox" value="opcion3">opcion3
+        <input type="checkbox" value="opcion4">opcion4
+        <br>
+        <label for="date">selecciona una fecha</label><input type="date" min="2020-01-01" max="2020-12-31"
+            value="2020-01-17">
+        <label for=""></label>selecciona un mes<input min="2020-01" max="2020-12" type="month">
+        <br>
+        <label for="">seleccina un color</label><input type="color">
+        <br>
+        <label for="">Rango</label><input type="range">
+        <br>
+        <label for="">selecciona una opcion</label> <select name="" id="">
+            <option selected value="">--selecciona--</option>
+            <option value="ch"></option>
+            <option value="">Med</option>
+            <option value="">Gd</option>
+            <option value="">Eg</option>
+        </select>
+        <br>
+        <input type="submit" value="probar formulario">
+    </form>
+
+
+</body>
+
+</html>
